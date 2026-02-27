@@ -19,7 +19,9 @@
 
 ## تکنولوژی‌های استفاده شده
 - زبان: **Kotlin**
- RecyclerView - constraintlayout -  Retrofit
+
+
+RecyclerView - constraintlayout -  Retrofit
 
 - محیط توسعه: **Android Studio**
 - minSdk = 24
