@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GoldApp</string>
+    <string name="impSplash">imgSplash</string>
+    <string name="description_txt_view">قیمت طلا و ارز</string>
+    <string name="description_splash2">تازه ترین اخبار ارز و طلای جهان</string>
+    <string name="text2">سه شنبه 24 شهریور 1403</string>
+    <string name="gold18">گرم طلای 18 عیار</string>
+    <string name="goldPrice">قیمت طلا</string>
+    <string name="arzPrice">قیمت ارز</string>
+</resources>

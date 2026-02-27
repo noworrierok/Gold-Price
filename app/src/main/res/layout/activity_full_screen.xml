@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".ui.FullScreenActivity">
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="100dp"
+        android:contentDescription="@string/impSplash"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_splash" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="38sp"
+        android:fontFamily=""
+        android:textColor="@color/splash_gold"
+        android:textStyle="bold"
+        android:text="@string/description_txt_view"
+        app:layout_constraintEnd_toEndOf="@+id/imgView"
+        app:layout_constraintStart_toStartOf="@+id/imgView"
+        app:layout_constraintTop_toBottomOf="@+id/imgView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:text="@string/description_splash2"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
